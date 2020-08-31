@@ -5,8 +5,60 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfTicTacToe"
         mc:Ignorable="d"
-        Title="Tic Tac Toe" Height="450" Width="800">
-    <Grid>
-        
+        Title="Tic Tac Toe" Height="450" Width="770">
+    <Grid Margin="0,0,44,0">
+        <StackPanel Margin="330,36,350,344">
+            <RadioButton Name="x" IsChecked="True" Checked="X_Checked" >X</RadioButton>
+            <RadioButton Name="o" Checked="O_Checked">O</RadioButton>
+        </StackPanel>
+        <Button Content="New game" HorizontalAlignment="Left"
+                Margin="330,80,0,0" 
+                VerticalAlignment="Top" Width="75"
+                Click="Button_Click_NewGame"/>
+        <Button Content="." HorizontalAlignment="Left"
+                Margin="10,40,0,0" VerticalAlignment="Top"
+                Width="100"
+                Height="100" FontSize="40"
+                Name="btn1_1" Click="btn1_1_Click"/>
+        <Button Content="." HorizontalAlignment="Left"
+                Margin="110,40,0,0" VerticalAlignment="Top"
+                Width="100"
+                Height="100" FontSize="40"
+                Name="btn1_2" Click="btn1_2_Click"/>
+        <Button Content="." HorizontalAlignment="Left"
+                Margin="210,40,0,0" VerticalAlignment="Top"
+                Width="100"
+                Height="100" FontSize="40"
+                Name="btn1_3" Click="btn1_3_Click"/>
+        <Button Content="." HorizontalAlignment="Left"
+                Margin="10,140,0,0" VerticalAlignment="Top"
+                Width="100"
+                Height="100" FontSize="40"
+                Name="btn2_1" Click="btn2_1_Click"/>
+        <Button Content="." HorizontalAlignment="Left"
+                Margin="110,140,0,0" VerticalAlignment="Top"
+                Width="100"
+                Height="100" FontSize="40"
+                Name="btn2_2" Click="btn2_2_Click"/>
+        <Button Content="." HorizontalAlignment="Left"
+                Margin="210,140,0,0" VerticalAlignment="Top"
+                Width="100"
+                Height="100" FontSize="40"
+                Name="btn2_3" Click="btn2_3_Click"/>
+        <Button Content="." HorizontalAlignment="Left"
+                Margin="10,240,0,0" VerticalAlignment="Top"
+                Width="100"
+                Height="100" FontSize="40"
+                Name="btn3_1" Click="btn3_1_Click"/>
+        <Button Content="." HorizontalAlignment="Left"
+                Margin="110,240,0,0" VerticalAlignment="Top"
+                Width="100"
+                Height="100" FontSize="40"
+                Name="btn3_2" Click="btn3_2_Click"/>
+        <Button Content="." HorizontalAlignment="Left"
+                Margin="210,240,0,0" VerticalAlignment="Top"
+                Width="100"
+                Height="100" FontSize="40"
+                Name="btn3_3" Click="btn3_3_Click"/>
     </Grid>
 </Window>
