@@ -23,6 +23,28 @@ namespace WpfTicTacToe
         public MainWindow()
         {
             InitializeComponent();
+            DisableButtons();
+        }
+
+        private void DisableButtons()
+        {
+            btn1_1.IsEnabled = false;
+            btn1_2.IsEnabled = false;
+            btn1_3.IsEnabled = false;
+            btn2_1.IsEnabled = false;
+            btn2_2.IsEnabled = false;
+            btn2_3.IsEnabled = false;
+            btn3_1.IsEnabled = false;
+            btn3_2.IsEnabled = false;
+            btn3_3.IsEnabled = false;
+        }
+
+        private void Button_Click_Play(object sender, RoutedEventArgs e)
+        {
+            if (x.IsChecked == true)
+            {
+
+            }
         }
     }
 }
